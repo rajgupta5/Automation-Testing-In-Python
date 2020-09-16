@@ -1,18 +1,18 @@
 # Automation-Testing-In-Python
 
-##REST API TESTING## 
+## REST API TESTING ## 
 - Requests
 - Pytest
 - tavern
 
-##UI TESTING##
+## UI TESTING ##
 - selenium
 
-##PERFORMANCE TESTING##
+## PERFORMANCE TESTING ##
 - locust
 
-##BDD TESTING##
+## BDD TESTING ##
 - behave
 
-##SDET PYTHON##
+## SDET PYTHON ##
 - https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
