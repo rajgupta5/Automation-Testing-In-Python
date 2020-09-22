@@ -18,7 +18,12 @@
 ## OTHER PYTHON PACKAGES ##
 - pdb (For debugging and breakpoints)
 - PyMySQL (For MYSQL)
-- setuptools
+- setuptools (For packaging)
+- logging (For logs)
+
+## VIRTUAL ENVIRONMENT ##
+- virtualenv
+- conda
 
 ## SDET PYTHON ##
 - https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
