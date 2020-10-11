@@ -24,6 +24,7 @@
 ## VIRTUAL ENVIRONMENT ##
 - virtualenv
 - conda
+- https://towardsdatascience.com/micropipenv-best-practices-for-installing-python-dependencies-72203925eb0d
 
 ## SDET PYTHON ##
 - https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
