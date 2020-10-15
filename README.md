@@ -5,11 +5,17 @@
 - Pytest
 - tavern
 
-## UI TESTING ##
+## WEB APPLICATION TESTING ##
 - selenium
+- selenium grid
+
+## MOBILE APPLICATION TESTING ##
+- Appium
+- Appium grid
+
 
 ## PERFORMANCE TESTING ##
-- locust
+- Locust
 
 ## BDD TESTING ##
 - behave
@@ -26,8 +32,6 @@
 - conda
 - https://towardsdatascience.com/micropipenv-best-practices-for-installing-python-dependencies-72203925eb0d
 
-## SDET PYTHON ##
-- https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
 
 ## Parallel Test Execution with Pytest ##
 - Using pytest plugin. pytest-xdist lets you scale up by increasing the test thread count and scale out by distributing test execution to remote machines
@@ -53,3 +57,7 @@ https://www.lambdatest.com/blog/top-5-python-frameworks-for-test-automation-in-2
 3. UNITTEST OR PYUNIT
 4. BEHAVE
 5. LETTUCE
+
+
+## SDET PYTHON ##
+- https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
