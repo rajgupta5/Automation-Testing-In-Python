@@ -1,6 +1,6 @@
 # PYTEST
 
-- Pytest unit testing framework to provide us with 
+Pytest unit testing framework to provide us with 
   - a test runner, 
   - an assertion library and  
   - some basic reporting functionality.
@@ -26,6 +26,9 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
 - @pytest.mark.usefixtures("setup")
 - data driven and parameterization can be done with return statements in tuple format
 - when you define fixture scope to class only, it will run once before class is initiated and at the end
+- data driven tests using pytest and requests
+  - @pytest.mark.parametrize("userid, expected_name", read_data_from_csv())
+  
 
 ## Running all test from terminal ##
 - py.test - this command will collect all tests as per above rules
@@ -37,11 +40,32 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
    - py.test test_demo2.py -sv
 - Running selected test methods based on matching keywords
    - py.test -k CreditCard -sv (k is for matching regular expression)
+- pytest --help
+- py.test -k -> keyword
+- py.test -v - > verbose
+- py.test -m -> marker tests
+- Pretty print command
+  - pytest -sv test_post_headers_body_json_pprint.py::test_post_headers_body_json
   
+  
+## Report Generation ##
+- Command to generate the HTML report [https://pypi.org/project/pytest-html/]
+  - pytest -sv --html report.html
+  - pytest --html=report.html
+  - py.test -sv test_demo1.py --html=report.html
+
+- Pytest with allure report
+  - pip install allure-pytest
+  - py.test --alluredir=%allure_result_folder% ./tests
+  - allure serve %allure_result_folder%
+
+
+
 
 
 ## Parallel Test Execution with Pytest ##
 - Using pytest plugin. pytest-xdist lets you scale up by increasing the test thread count and scale out by distributing test execution to remote machines
+  - pip install xdist
   - $ pipenv run python -m pytest -n 4
 
 - To run tests in parallel, we recommend using Nose and MultiProcessing, which makes it very easy to run multiple Python tests simultaneously:
