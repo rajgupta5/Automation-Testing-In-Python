@@ -1,7 +1,44 @@
 # PYTEST
 
+- Pytest unit testing framework to provide us with 
+  - a test runner, 
+  - an assertion library and  
+  - some basic reporting functionality.
+
 ## PYTEST VS TESTNG ##
 https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
+
+
+## Running with pytest rules ##
+- Any pytest file should start with test_ or end with _test
+- pytest method names should start with test
+- Any code should be wrapped in method only
+- Method name should have sense
+- -k stands for method names execution, -s logs in output  -v stands for more info metadata
+- you can run specific file with py.test <filename>
+- you can mark (tag) tests @pytest.mark.smoke and then run with -m
+- you can skip tests with @pytest.mark.skip
+- @pytest.mark.xfail
+- fixtures are used as setup and tear down methods for test cases- conftest file to generalize fixt
+- fixture and make it available to all test cases (fixture name into parameters of method)
+- @pytest.fixture(scope="class")
+- the scope for which this fixture is shared, one of function, default, class, module, package, session
+- @pytest.mark.usefixtures("setup")
+- data driven and parameterization can be done with return statements in tuple format
+- when you define fixture scope to class only, it will run once before class is initiated and at the end
+
+## Running all test from terminal ##
+- py.test - this command will collect all tests as per above rules
+- py.test -v (v stands for verbose with more information on test execution)
+- py.test -s (for printing all console logs in the output)
+- py.test -sv <filename>
+- If two methods with same name in the test file, then pytest overrides the first method and only executes the second method
+- Running selected test files using pytest
+   - py.test test_demo2.py -sv
+- Running selected test methods based on matching keywords
+   - py.test -k CreditCard -sv (k is for matching regular expression)
+  
+
 
 ## Parallel Test Execution with Pytest ##
 - Using pytest plugin. pytest-xdist lets you scale up by increasing the test thread count and scale out by distributing test execution to remote machines
