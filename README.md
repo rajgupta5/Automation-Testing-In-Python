@@ -40,3 +40,16 @@
 
 ## Python BDD Frameworks ##
 - https://blog.testproject.io/2019/05/16/python-testing-framework-pros-cons/
+
+
+## PYTEST VS TESTNG ##
+https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
+
+## TOP 5 PYTHON FRAMEWORKS ##
+https://www.lambdatest.com/blog/top-5-python-frameworks-for-test-automation-in-2019/
+
+1. ROBOT
+2. PYTEST
+3. UNITTEST OR PYUNIT
+4. BEHAVE
+5. LETTUCE
