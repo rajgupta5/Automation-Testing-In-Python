@@ -41,6 +41,9 @@ https://www.lambdatest.com/blog/top-5-python-frameworks-for-test-automation-in-2
 4. BEHAVE
 5. LETTUCE
 
+## YOUTUBE CHANNELS ## 
+- https://www.youtube.com/c/NaveenAutomationLabs/playlists
+
 
 ## SDET PYTHON ##
 - https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
