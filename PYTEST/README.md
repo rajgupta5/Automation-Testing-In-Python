@@ -59,6 +59,7 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
   
 ## Report Generation ##
 - Command to generate the HTML report [https://pypi.org/project/pytest-html/]
+  - pip install pytest-html
   - pytest -sv --html report.html
   - pytest --html=report.html
   - py.test -sv test_demo1.py --html=report.html
@@ -72,7 +73,7 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
 
 ## Parallel Test Execution ##
 - Using pytest plugin. pytest-xdist lets you scale up by increasing the test thread count and scale out by distributing test execution to remote machines
-  - pip install xdist
+  - pip install pytest-xdist
   - py.test -m pytest -n 4
 
 - To run tests in parallel, we recommend using Nose and MultiProcessing, which makes it very easy to run multiple Python tests simultaneously:
