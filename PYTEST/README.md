@@ -80,3 +80,7 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
   - pip install nose==0.11
   - pip install multiprocessing
   - nosetests --processes=<number_of_processes>
+
+
+## References ##
+- https://github.com/naveenanimation20/Selenium-Python-TutorialsCode/tree/master/PytestSessions
