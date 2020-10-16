@@ -1,9 +1,18 @@
 # PYTEST
 
-Pytest unit testing framework to provide us with 
+## ABOUT PYTEST ##
+- Pytest unit testing framework to provide us with 
   - a test runner, 
   - an assertion library and  
-  - some basic reporting functionality.
+  - some basic reporting functionality
+- Pytest is the TDD 'all in one' testing framework for Python
+- Pytest can test any part of the stack including front-end components
+- Pytest is powerful enough to test database and server components and functionality
+- Pytest has a powerful yet simple fixture model that is unmatched in any other testing framework.
+- Pytest's powerful fixture model allows grouping of fixtures
+- Pytest has a hook function called pytest_generate_tests hook which is called when collecting a test function and one can use it to generate data
+- By either using unittest.mock or using pytest-mock a thin wrapper that provides mock functionality for pytest
+- Tests can be grouped with pytest by use of markers which are applied to various tests and one can run tests with the marker applied
 
 ## PYTEST VS TESTNG ##
 https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
@@ -58,8 +67,6 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
   - pip install allure-pytest
   - py.test --alluredir=%allure_result_folder% ./tests
   - allure serve %allure_result_folder%
-
-
 
 
 
