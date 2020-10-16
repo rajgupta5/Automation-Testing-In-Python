@@ -84,3 +84,4 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
 
 ## References ##
 - https://github.com/naveenanimation20/Selenium-Python-TutorialsCode/tree/master/PytestSessions
+- https://www.youtube.com/playlist?list=PLFGoYjJG_fqoMMmCKLeLGQzh6Jz4CmO2Y
