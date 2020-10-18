@@ -1,5 +1,8 @@
 # PYTEST
 
+![Why Pytests](why_pytests.jpeg)
+
+
 ## ABOUT PYTEST ##
 - Pytest unit testing framework to provide us with 
   - a test runner, 
