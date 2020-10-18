@@ -40,7 +40,11 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
 - when you define fixture scope to class only, it will run once before class is initiated and at the end
 - data driven tests using pytest and requests
   - @pytest.mark.parametrize("userid, expected_name", read_data_from_csv())
-  
+- pytest.ini file contains search patterns for test files, classes, and functions
+    - [pytest]
+    - python_files = test_*
+    - python_classes = *Tests
+    - python_functions = test_*
 
 ## Running all test from terminal ##
 - py.test - this command will collect all tests as per above rules
