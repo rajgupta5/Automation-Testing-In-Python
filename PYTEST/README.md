@@ -45,6 +45,19 @@ https://knapsackpro.com/testing_frameworks/difference_between/pytest/vs/testng
     - python_files = test_*
     - python_classes = *Tests
     - python_functions = test_*
+- "mark" decorator identifies a class or function as one that can be searched by keyword
+- To tell pytest to only run test cases marked "smoke" : "pytest -m smoke"
+- To tell pytest to search for tests that are marked BOTH as "integration" and "smoke" : pytest -m "smoke and integration"
+- To tell pytest to search for tests marked EITHER "integration" or "smoke" : pytest -m "smoke or integration"
+- To avoid marking every method in my class as "integration", Mark the class with "integration" - pytest will then identify all class methods as integration marker
+
+  
+
+  
+
+  
+
+
 
 ## Running all test from terminal ##
 - py.test - this command will collect all tests as per above rules
