@@ -1,0 +1,95 @@
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers/car?car-type=CCAR&rate-type=RETAIL&rental-agency=ZE&pickup=JFK&dropOff=JFK&start-date=2020-11-10&end-date=2020-11-15
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:08:00 GMT
+Content-Length: 2
+Connection: keep-alive
+
+[]
+
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+POST http://dev.rtpclinda.aws.hotwire.com/linda-cache/watched-compsets/car?customer-id=12424036601
+
+User-Agent: Python Requests
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 499
+
+b'[{"messageId": "12345FRT55456", "amount": "61.24", "currencyCode": "USD", "updateTime": "2020-09-05", "startDate": "2020-11-10", "endDate": "2020-11-15", "strikeThroughPrice": "0.0", "carTypeCode": "CCAR", "rateType": "RETAIL", "rentalAgencyCode": "ZE", "startAirportCode": "JFK", "destinationAirportCode": "JFK", "startAirportName": "New York John F Kennedy Intl.(JFK)", "destinationAirportName": "New York John F Kennedy Intl.(JFK)", "models": "Nissan Versa or similar", "carTypeName": "Compact"}]'
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: text/html
+Date: Sun, 18 Oct 2020 17:08:00 GMT
+Content-Length: 67
+Connection: keep-alive
+
+1 watches are updated for the customer 12424036601 for vertical car
+
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers/car?car-type=CCAR&rate-type=RETAIL&rental-agency=ZE&pickup=JFK&dropOff=JFK&start-date=2020-11-10&end-date=2020-11-15
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:08:01 GMT
+Vary: Accept-Encoding
+Content-Length: 218
+Connection: keep-alive
+
+[
+    {
+        "customerId": "12424036601",
+        "amount": "61.24",
+        "currencyCode": "USD",
+        "updateTime": "2020-09-05",
+        "strikeThruPrice": "0.0",
+        "models": "Nissan Versa or similar",
+        "carTypeName": "Compact",
+        "startAirportName": "New York John F Kennedy Intl.(JFK)",
+        "destinationAirportName": "New York John F Kennedy Intl.(JFK)"
+    }
+]
+
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers/car?car-type=CCAR&rate-type=RETAIL&rental-agency=ZE&pickup=JFK&dropOff=JFK&start-date=2020-11-10&end-date=2020-11-15
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:08:03 GMT
+Content-Length: 2
+Connection: keep-alive
+
+[]

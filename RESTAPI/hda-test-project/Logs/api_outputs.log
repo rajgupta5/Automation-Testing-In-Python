@@ -1,0 +1,86 @@
+2020-10-18 10:53:18: -----------Request----------->
+GET http://dewey.dev.aws.hotwire.com/customer/12424036601/
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+2020-10-18 10:53:18: <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:23:17 GMT
+Content-Length: 217
+Connection: keep-alive
+
+{
+    "id": "12424036601",
+    "firstName": "Test",
+    "lastName": "Hot-dollars",
+    "email": "hotdollarsapi@test.com",
+    "zip2020-10-18 10:53:18: -----------R2020-10-18 10:53:18: -----------Request----------->
+POST http://dev.rtpclinda.aws.hotwire.com/linda-cache/watched-compsets?customer-id=12424036601
+
+User-Agent: Python Requests
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 382
+
+b'[{"messageId": "12345FRT55421356", "hoodId": "89686", "starRating": "2.5", "percentRecommended": "85", "lodgingTypeCode": "H", "startDate": "2020-11-09", "endDate": "2020-11-12", "numOfRooms": "1", "numOfAdults": "2", "numOfChildren": "0", "destination": "Miami, FL", "hoodName": "Miami Intl Airport (MIA) West - Doral", "gaiaId": "", "amount": "78.9999985", "currencyCode": "USD"}]'
+
+2020-10-18 10:53:18: <-----------Response-----------
+Status code:200
+
+Content-Type: text/html
+Date: Sun, 18 Oct 2020 17:23:18 GMT
+Content-Length: 69
+Connection: keep-alive
+
+1 watches are updated for the customer 12424036601 for vertical Hotel
+
+2020-10-18 10:53:19: -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwi2020-10-18 10:53:19: -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers/car?car-type=CCAR&rate-type=RETAIL&rental-agency=ZE&pickup=JFK&dropOff=JFK&start-date=2020-11-10&end-date=2020-11-15
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzi2020-10-18 10:53:19: <-----------Response-----------
+2020-10-18 10:53:19: <-----------Response-----------
+Status code:200
+
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:23:19 GMT
+Vary: Accept-Encoding
+Content-Length: 218
+Connection: keep-alive
+
+[
+    {
+        "customerId": "12424036601",
+        "amount": "61.24",
+        "currencyCode": "USD",
+        "updateTime": "2020-09-05",
+        "strikeThruPrice": "0.0",
+        "models": "Nissan2020-10-18 10:53:21: -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers?hood-id=89686&star-rating=2.5&percent-recommended=85&start-date=2020-11-09&end2020-10-18 10:53:21: -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers/car?car-type=CCAR&rate-type=RETAIL&rental-agency=ZE&pickup=2020-10-18 10:53:21: <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:23:20 GMT
+Content-Length: 2
+Connection: 2020-10-18 10:53:21: <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:23:20 GMT
+Content-Length: 2
+Connection: keep-alive
+
+[]
+

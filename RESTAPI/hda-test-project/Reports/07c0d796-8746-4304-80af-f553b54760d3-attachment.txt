@@ -1,0 +1,92 @@
+INFO     log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers?hood-id=89686&star-rating=2.5&percent-recommended=85&start-date=2020-11-09&end-date=2020-11-12&num-rooms=1&num-adults=2&num-children=0&lodging_type=H
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+INFO     log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:11:32 GMT
+Content-Length: 2
+Connection: keep-alive
+
+[]
+
+INFO     log_api:common.py:59 -----------Request----------->
+POST http://dev.rtpclinda.aws.hotwire.com/linda-cache/watched-compsets?customer-id=12424036601
+
+User-Agent: Python Requests
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 382
+
+b'[{"messageId": "12345FRT55421356", "hoodId": "89686", "starRating": "2.5", "percentRecommended": "85", "lodgingTypeCode": "H", "startDate": "2020-11-09", "endDate": "2020-11-12", "numOfRooms": "1", "numOfAdults": "2", "numOfChildren": "0", "destination": "Miami, FL", "hoodName": "Miami Intl Airport (MIA) West - Doral", "gaiaId": "", "amount": "78.9999985", "currencyCode": "USD"}]'
+
+INFO     log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: text/html
+Date: Sun, 18 Oct 2020 17:11:33 GMT
+Content-Length: 69
+Connection: keep-alive
+
+1 watches are updated for the customer 12424036601 for vertical Hotel
+
+INFO     log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers?hood-id=89686&star-rating=2.5&percent-recommended=85&start-date=2020-11-09&end-date=2020-11-12&num-rooms=1&num-adults=2&num-children=0&lodging_type=H
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+INFO     log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:11:34 GMT
+Content-Length: 203
+Connection: keep-alive
+
+[
+    {
+        "customerId": "12424036601",
+        "amount": "78.9999985",
+        "currencyCode": "USD",
+        "updateTime": null,
+        "strikeThruPrice": null,
+        "destination": "Miami, FL",
+        "hoodName": "Miami Intl Airport (MIA) West - Doral",
+        "gaiaId": ""
+    }
+]
+
+INFO     log_api:common.py:59 -----------Request----------->
+GET http://dev.rtpclinda.aws.hotwire.com/linda-cache/compset-watchers?hood-id=89686&star-rating=2.5&percent-recommended=85&start-date=2020-11-09&end-date=2020-11-12&num-rooms=1&num-adults=2&num-children=0&lodging_type=H
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+INFO     log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:11:35 GMT
+Content-Length: 2
+Connection: keep-alive
+
+[]

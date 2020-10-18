@@ -1,0 +1,30 @@
+INFO     log_api:common.py:59 -----------Request----------->
+GET http://dewey.dev.aws.hotwire.com/customer/12424036601/
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+INFO     log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 17:16:56 GMT
+Content-Length: 217
+Connection: keep-alive
+
+{
+    "id": "12424036601",
+    "firstName": "Test",
+    "lastName": "Hot-dollars",
+    "email": "hotdollarsapi@test.com",
+    "zipCode": "94111",
+    "registerDate": "2016-02-05 10:20:41",
+    "country": "US",
+    "hmz": "SFO",
+    "siteId": "1",
+    "placementCode": "100061"
+}

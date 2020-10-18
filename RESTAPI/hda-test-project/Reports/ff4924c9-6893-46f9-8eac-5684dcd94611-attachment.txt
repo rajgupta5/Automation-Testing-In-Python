@@ -1,0 +1,43 @@
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+GET http://dewey.dev.aws.hotwire.com/customer/12424036601/extended
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 16:58:51 GMT
+Vary: Accept-Encoding
+Content-Length: 314
+Connection: keep-alive
+
+{
+    "id": "12424036601",
+    "firstName": "Test",
+    "lastName": "Hot-dollars",
+    "email": "hotdollarsapi@test.com",
+    "zipCode": "94111",
+    "registerDate": "2016-02-05 10:20:41",
+    "country": "UNITED STATES",
+    "hmz": "2000168",
+    "siteId": "1",
+    "placementCode": "100061",
+    "emailPermissionStatus": "Y",
+    "emailFormat": "H",
+    "hotFareReports": "N",
+    "massMailings": "Y",
+    "mobilePermissionStatus": "O",
+    "savingsNotices": "N",
+    "tripWatcher": "N",
+    "cruiseNews": "N",
+    "currentUserTier": "5",
+    "deliverable": "Y",
+    "newSubscriptionDivision": null
+}

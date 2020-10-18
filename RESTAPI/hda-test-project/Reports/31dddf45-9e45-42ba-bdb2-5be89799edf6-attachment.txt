@@ -1,0 +1,30 @@
+[32mINFO    [0m log_api:common.py:59 -----------Request----------->
+GET http://dewey.dev.aws.hotwire.com/customer/12424036601/sync
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+
+[32mINFO    [0m log_api:common.py:90 <-----------Response-----------
+Status code:200
+
+Content-Type: application/json
+Date: Sun, 18 Oct 2020 16:58:49 GMT
+Content-Length: 242
+Connection: keep-alive
+
+{
+    "id": "12424036601",
+    "email": "hotdollarsapi@test.com",
+    "firstName": "Test",
+    "lastName": "Hot-dollars",
+    "registerDate": "2016-02-05 10:20:41",
+    "massMailings": "Y",
+    "tripWatcher": "N",
+    "emailFormat": "H",
+    "placementCode": "100061",
+    "emailPermissionStatus": "I"
+}
