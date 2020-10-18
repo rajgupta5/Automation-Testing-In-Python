@@ -1,6 +1,6 @@
 # PYTEST
 
-![Why Pytests](why_pytests)
+![Why Pytests](https://github.com/rajgupta5/Automation-Testing-In-Python/blob/master/PYTEST/why_pytests.png)
 
 
 ## ABOUT PYTEST ##
