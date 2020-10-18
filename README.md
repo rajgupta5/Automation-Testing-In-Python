@@ -41,9 +41,20 @@ https://www.lambdatest.com/blog/top-5-python-frameworks-for-test-automation-in-2
 4. BEHAVE
 5. LETTUCE
 
+## INTEGRATION WITH CI/CD
+- Jenkins
+- Installation on Macos [https://www.jenkins.io/download/lts/macos/]
+  - brew install jenkins-lts
+  - brew services start jenkins-lts
+  - browse to http://localhost:8080
+  - Enter Admin password from /Users/<username>/.jenkins/secrets/initialAdminPassword
+  - Click Install Suggested Plugins
+
 ## YOUTUBE CHANNELS ## 
 - https://www.youtube.com/c/NaveenAutomationLabs/playlists
 
 
 ## SDET PYTHON ##
 - https://docs.google.com/document/d/1uIaG2wAupgPkpOtBpOsRK5T-NZvOEzhIIUg82hdjwvg/edit#
+
+
