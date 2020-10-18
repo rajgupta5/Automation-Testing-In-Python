@@ -1,6 +1,6 @@
 # PYTEST
 
-![Why Pytests](why_pytests.jpeg)
+![Why Pytests](why_pytests)
 
 
 ## ABOUT PYTEST ##
