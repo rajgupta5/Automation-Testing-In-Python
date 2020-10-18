@@ -40,6 +40,7 @@ https://www.lambdatest.com/blog/top-5-python-frameworks-for-test-automation-in-2
 3. UNITTEST OR PYUNIT
 4. BEHAVE
 5. LETTUCE
+6. NOSE
 
 ## INTEGRATION WITH CI/CD
 - Jenkins
